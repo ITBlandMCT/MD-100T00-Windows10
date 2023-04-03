@@ -75,12 +75,12 @@ As part of the Desktop Administration team at Contoso, you have been tasked with
    - Application name: **Power BI Desktop**
    - Installer path: **E:\\Labfiles\\Apps\\PowerBI\\PBIDesktop_x64.msi**
    - Continue installations after failure: **Yes**
-   - In the **Command line arguments** box, at the end of the command add **ACCEPT_EULA=1** and then select **Add**.
+   - In the **Command line arguments** box, at the end of the command add a space and **ACCEPT_EULA=1** and then select **Add**.
 
 10. On the **Add applications** step, select **Add an application** and then configure the following settings:
     - Application name: **PowerToys**
     - Installer path: **E:\\Labfiles\\Apps\\PowerToys\\PowerToysSetup-x64.exe**
-    - In the **Command line arguments** box, at the end of the command add **-passive** and then select **Add**. The passive switch allows the display of the installation status, but will not require any input.
+    - In the **Command line arguments** box, at the end of the command add a space and **-passive** and then select **Add**. The passive switch allows the display of the installation status, but will not require any input.
 
 11. Select the **Finish** step and review the **Summary** information.
 
