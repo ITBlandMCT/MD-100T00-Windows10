@@ -104,7 +104,7 @@ You need to create the additional Active Directory objects and link the GPOs. Yo
 
 8. Minimize **Active Directory Users and Computers**.
 
-9. Maximize the Group Policy Management window. In the console tree, expand **Forest:Contoso.com**, expand **Domains**, and then expand **Contoso.com**. Select the **Group Policy Objects** node.
+9. Maximize the Group Policy Management window. In the console tree, expand **Forest:Contoso.com**, expand **Domains**, and then expand **Contoso.com**. Right-click **Contoso.com** and select **Refresh**.
 
 10. Right-click the **ResearchLab** OU, and then select **Link an existing GPO**.
 
