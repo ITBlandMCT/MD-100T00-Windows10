@@ -142,7 +142,7 @@ As part of the Desktop Administration team at Contoso, you have been tasked with
 
 3. On the **System** page, verify that the Computer name is **SEA-CL** followed by two random numbers.
 
-4. On the Start menu, select **Apps** and then select **Apps & features**.
+4. On the Navigation menu of Settings, select **Apps** and then select **Apps & features**.
 
 5. Verify that both **Microsoft Power BI Desktop (x64)** and **PowerToys (Preview) x64** are both listed as installed applications.
 
