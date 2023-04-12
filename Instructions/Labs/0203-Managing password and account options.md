@@ -63,22 +63,10 @@ You have been delegated the task to configure the domain password policy for Con
 2. In the Administrator: Windows PowerShell window, type the following command, and then press **Enter**:
 
 ```
-    Enter-PSSession -ComputerName SEA-DC1.contoso.com
+    Invoke-Command -ComputerName SEA-DC1.contoso.com -ScriptBlock {GPUpdate /force}
 ```
 
-3. In the Administrator: Windows PowerShell window, type the following command, and then press **Enter**:
-
-```
-   GPUpdate /force
-```
-
-4. In the Administrator: Windows PowerShell window, type the following command, and then press **Enter**:
-
-```
-    Exit-PSSession
-```
-
-5. Close the **Windows PowerShell** and the **Active Directory Users and Computers** window.
+3. Close the **Windows PowerShell** and the **Active Directory Users and Computers** window.
 
 **Results**: After completing this exercise you created a password policy that will affect the password settings for all domain users.
 
